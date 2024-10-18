@@ -1,6 +1,6 @@
 # Day 1
 
-Welcome to Day 1 of my 45-day coding challenge! Below are my submissions for today:
+Day 1 of my 45-day coding challenge! Below are my submissions for today:
 
 ## Submissions
 
