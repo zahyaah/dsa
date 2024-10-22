@@ -8,5 +8,3 @@ Day 6 of my 45-day coding challenge! Below are my submissions for today:
 2. [Reverse Pairs](https://leetcode.com/submissions/detail/1430640379/)
 3. [Group Anagrams](https://leetcode.com/submissions/detail/1430682537/)
 4. [GFG - Print Anagrams Together](./gfg-print-anagrams-together/Solution.java)
-
-![alt text](image.png)
