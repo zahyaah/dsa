@@ -1,5 +1,5 @@
 // link - https://www.geeksforgeeks.org/problems/product-array-puzzle4525/1
-
+// on leetcode? - https://leetcode.com/problems/product-of-array-except-self/
 import java.util.Arrays;
 
 public class Solution {
@@ -16,7 +16,7 @@ public class Solution {
         }
         
         // postfix product for an element j 
-        // is the product of all the elements after i
+        // is the product of all the elements after j
         for (int j = n-1; j >= 0; j--) {
             result[j] *= postfixProduct; 
             postfixProduct *= nums[j]; 
