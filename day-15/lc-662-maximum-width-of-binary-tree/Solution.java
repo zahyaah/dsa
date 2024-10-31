@@ -45,9 +45,9 @@ public class Solution {
                 int index = pp.getValue(); 
 
                 if (sep.left != null)
-                    queue.offer(new Pair(sep.left, (2*index)+1));
+                    queue.offer(new Pair<>(sep.left, (2*index)+1));
                 if (sep.right != null)
-                    queue.offer(new Pair(sep.right, (2*index)+2));
+                    queue.offer(new Pair<>(sep.right, (2*index)+2));
                 
                 if (i == 0)
                     first = index; 
