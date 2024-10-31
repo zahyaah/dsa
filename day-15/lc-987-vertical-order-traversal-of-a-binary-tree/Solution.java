@@ -43,7 +43,7 @@ public class Solution {
         Queue<NodePair> queue = new LinkedList<>(); 
         List<NodePair> store = new ArrayList<>(); 
 
-        queue.offer(new NodePair(root, new Pair(0, 0)));
+        queue.offer(new NodePair(root, new Pair<>(0, 0)));
 
         while (!queue.isEmpty()) {
             int size = queue.size(); 
@@ -55,9 +55,9 @@ public class Solution {
                 Pair<Integer, Integer> P = temp.pair; 
 
                 if (N.left != null)
-                    queue.offer(new NodePair(N.left, new Pair(P.getKey()+1, P.getValue()-1))); 
+                    queue.offer(new NodePair(N.left, new Pair<>(P.getKey()+1, P.getValue()-1))); 
                 if (N.right != null)
-                    queue.offer(new NodePair(N.right, new Pair(P.getKey()+1, P.getValue()+1))); 
+                    queue.offer(new NodePair(N.right, new Pair<>(P.getKey()+1, P.getValue()+1))); 
             }
         }
         store.sort((a, b) -> {
